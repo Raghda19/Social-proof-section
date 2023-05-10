@@ -20,7 +20,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL:(https://raghda19.github.io/Social-proof-section/)
 
 
 ### Built with
@@ -34,6 +34,6 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ## Author
 
-- Website - [Raghda Mohamed](file:///C:/Users/HP/Desktop/Challenging%20Project/social-proof-section-master/Challange4.html/index)
+- Website - [Raghda Mohamed](https://raghda19.github.io/Social-proof-section/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
