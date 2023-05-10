@@ -35,5 +35,5 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ## Author
 
 - Website - [Raghda Mohamed](https://raghda19.github.io/Social-proof-section/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Raghda19](https://www.frontendmentor.io/profile/Raghda19)
 
