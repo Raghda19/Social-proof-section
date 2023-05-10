@@ -1,0 +1,223 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+    display: inline-grid;
+    margin:125px 0 0 200px;
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+ 
+/********** First Section (first column) **********/
+
+#first-sect{
+    margin-bottom: 30px;
+}
+h1 {
+  color:  hsl(300, 43%, 22%);
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.first-p {
+    color: hsl(303, 10%, 53%);
+    width: 380px;
+}
+
+/********** First Section (secound column) **********/
+
+main {
+    display: inline-flex;
+    color: hsl(300, 43%, 22%);
+    border-radius: 8px ;
+    padding:15px 70px 15px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+}
+
+img {
+    padding-right: 7px;
+    size: 15px;
+}
+
+.image{
+    padding-right: 20px;
+}
+
+#image2{
+    padding-right:50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#image3{
+    margin-left: 90px;
+    margin-top: 10px;
+    padding-right: 65px;
+}
+
+/********** Secound Section (first column) **********/
+
+.div-reviews{
+    background-color: hsl(300, 43%, 22%);
+    padding: 40px 10px 10px 40px;
+    border: 1px sold black;
+    border-radius:10px;
+    font-size: 15px;
+    height: 230px;
+    margin-left: 10px;
+    margin-bottom: 45px;
+}
+.Profal-img{
+    border-radius: 50%;
+    width: 45px;
+}
+
+.font-color{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+#first-review, #secound-review, #third-review{
+    padding-left:0;
+}
+.person-name{
+    margin-bottom: 0;
+}
+
+h6{
+    color: hsl(333, 80%, 67%);
+    padding-top: 0;
+    font-size: 17.5px;
+}
+
+.paragraph-review{
+    margin-top: 10px;
+    width:260px;
+}
+
+#secound-div-review{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#third-div-review{
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+/********** Media Section (for 375 width) **********/
+
+@media (max-width:375px) {
+    
+    body{
+        margin: 80px 0 60px 0;
+        width: 370px;
+        background-image: url(images/bg-pattern-top-mobile.svg);
+        background-repeat: no-repeat;
+    }
+
+   
+/********** first Section (first column) **********/
+
+    #first-sect{
+        text-align: center;
+    }
+
+     h1{
+        font-size: 35px;
+     }
+    .first-p{
+        font-weight: 500;
+        padding-right: 10px; 
+        padding-left: 20px;
+        width: 330px;
+    }
+/**********First Section (secound column) **********/
+    
+    #icon-div{
+        margin-left: 10px;
+    }
+
+    main{
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 20px;
+        width: 320px;
+        height: 90px;
+    }
+     
+    h4 {
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 20px;
+    }
+    
+/**** The ids of the all (main)  ****/
+    #image1{
+         width: 320px;
+         height: 80px;
+    }
+    
+    #image2,#image3{
+        margin-left:0;
+        height: 80px;
+    }
+    
+/**** The ids of the all (spain that inside the main section) ****/
+    #span-icon1 {
+        position: absolute;
+        bottom: 25px;
+        margin: 10px 0 20px 30px;
+    }
+
+    #span-icon2{
+        position: absolute;
+        bottom: 45px;
+        margin-left: 18px;
+    }
+
+    #span-icon3{
+        position: absolute;
+        bottom: 45px;
+         margin-left: 18px;
+         
+    }
+
+/**** The id of the secound [h4] that (inside the main section) ****/
+    #head4-2{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+/* *************************** */
+
+/**********Secound Section (All three columns) **********/
+    .div-reviews{
+        width: 320px;
+        margin: 15px 0 0 25px;
+        padding-right: 30px;
+    }
+
+/**** The id of the spicific [dive] ( that inside the secound column which in secound section ) ****/
+    #secound-div-review{
+        margin-bottom: 0 ;
+    }
+
+/**** The id of the spicific [dive] ( that inside the third column which in secound section ) ****/
+    #third-div-review{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+/**** The class of the 3 paragraphs  ( that inside secound section ) ****/
+    .paragraph-review{
+        padding-right: 30px;
+    }
+
+/**** The ids of the 2 & 3 paragraphs  ( that inside secound section ) ****/
+    #par2-review, #par3-review{
+       padding-right: 20px;
+    }
+}
